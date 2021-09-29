@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>29th spt 3</title>
+	<style type="text/css">
+
+	body 
+	{
+		margin: 20px 500px;
+		padding: 20px;
+	}
+
+	input[type="text"]:focus
+	{
+		background-color: lightseagreen;
+	}
+	input[type="number"]:focus
+	{
+		background-color: yellow;
+	}
+	input[type="button"]:focus
+	{
+		background-color: yellowgreen;
+		color: white;
+		border-radius: 5px;
+		padding: 2px;
+		width: 100px;
+		margin-left: 30px;
+		font-weight: bold;
+	}
+	textarea
+	{
+		background-color: lightblue;
+		border-radius: 5px;
+		width:700px ;
+		height: 500px;
+		border: 2px solid black;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	select
+	{
+		background-color: lightpink;
+		width: 150px;
+		border-radius:5px ;
+	}
+
+	#w
+	{
+		width: 500px;
+		height: 20px;
+		background-color: greenyellow;
+	}
+	h1
+	{
+		text-decoration: underline;
+		color: #0D2F84;
+	}
+
+		
+	</style>
+</head>
+<body>
+	<h1>Feedback Form</h1>
+<form>
+	<p>Name: <input type="text" name="n" placeholder="Enter your full name"></p>
+	<p>Phone: <input type="number" name="num"></p>
+	<p>
+		Choose your city:
+		<select>
+			<option>1.Kolkata</option>
+			<option>2.Mumbai</option>
+			<option>3.Delhi</option>
+			<option>4.Chennai</option>
+			
+		</select>
+	</p>
+
+	<p>
+		Highest Qualification:
+		<select>
+			<option>Post-Graduate</option>
+			<option>Graduate</option>
+			<option>Class XII</option>
+			
+		</select>
+	</p>
+
+	<p>Write somehing about yourself: <input type="text" name="me" id="w"></p>
+
+	<textarea>
+		Submit feedback about our site here:
+	</textarea>
+
+	<p><input type="button" name="b" value="submit"></p>
+
+	
+</form>
+</body>
+</html>
